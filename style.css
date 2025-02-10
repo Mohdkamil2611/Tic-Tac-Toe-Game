@@ -1,0 +1,79 @@
+*{
+    margin: 0;      /* margin for display */
+    padding: 0;     /* padding for  display */
+}
+
+body {
+    background-color: #138d75;
+    text-align: center;     /* body items will be in the center */
+}
+
+/* actually this is the box of the .game id */
+.container{
+    height: 70vh;       /* height of the container container */
+    display: flex;     /* for display purposes only */
+    justify-content: center;      /*this will be center the all 6 box into page*/ 
+    align-items: center;         /*align the center of the boxes in the middle*/
+}
+
+
+/*to set all boxes properties */
+.game{
+    height: 60vmin;    /*height of game container in screen coordinates */
+    width: 60vmin;   /*width of game container in screen coordinates*/
+    display: flex;   /*display the game container in screen coordinates */
+    flex-wrap: wrap;     /*flex the game container in screen coordinates*/
+    justify-content: center;  /*this will align the game container in the middle*/
+    align-items: center;    /*align the center of the boxes in the middle*/
+    gap: 1.5vmin;            /*for gap between boxes */
+    
+}
+
+.box{
+    height: 18vmin;    /*height of the box in the middle*/
+    width: 18vmin;    /*width of the box in the middle*/
+    border-radius: 1rem;      /*radius of the box */
+    border: #548787;
+    box-shadow: 0 0 1rem rgba(0,0,0.1);
+    font-size: 15vmin;    /*font size of the element writen inside box */
+        
+    background-color: #f1c40f;
+}
+
+#reset-btn{
+    padding: 1rem;    /*padding for the reset button */
+    font-size: 1.25rem;    /*font size for the reset button */
+    background-color: #191913;     /*background color for the reset button */
+    color: #fff;       /*color for the content in reset button */
+    border-radius: 0.4rem; /*border radius for the reset button */
+    border: #548787;
+
+}
+
+#new-btn{
+    padding: 1cqh;    /*padding for the reset button */
+    font-size: 1.25rem;    /*font size for the reset button */
+    background-color: #191913;     /*background color for the reset button */
+    color: #fff;       /*color for the content in reset button */
+    border-radius: 0.4rem; /*border radius for the reset button */
+    border: #548787;
+
+}
+
+#msg{
+    color: whitesmoke;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem ;
+
+}
+.hide{
+    display: none;
+}
